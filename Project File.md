@@ -22,9 +22,9 @@ Hello World
 int main()
 {
 float x,y,z;
-printf("\nEnter The First Numder: ");
+printf("\nEnter The First Number: ");
 scanf("%f", &x);
-printf("\nEnter The Second Numder: ");
+printf("\nEnter The Second Number: ");
 scanf("%f", &y);
 z = x+y;
 printf("\nAnswer is: = %.3f", z);
@@ -32,8 +32,8 @@ return 0;
 }
 
 ## Output of the program
-Enter The First Numder: 45.26
-Enter The Second Numder: 78.2648
+Enter The First Number: 45.26
+Enter The Second Number: 78.2648
 Answer is: = 123.525
 # 3. Program to print a Table
 
@@ -60,7 +60,7 @@ return 0;
 73.00 x 5 = 365.000
 73.00 x 6 = 438.000
 73.00 x 7 = 511.000
-# 4. Program to find Area, Perieter, Volume of a Circle
+# 4. Program to find Area, Perimeter, Volume of a Circle
 
 #include<stdio.h>
 int main()
@@ -90,20 +90,20 @@ int main()
 float h,b,A,P;
 printf("\nEnter Height: ");
 scanf("%f",&h);
-printf("\nEnter Bredth: ");
+printf("\nEnter Breadth: ");
 scanf("%f",&b);
 
 A = h*b;
 P = 2*(h+b);
-printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
+printf("\nArea of Square (or) Rectangle: = %.3f",A);
 printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
 return 0;
 }
 ## Output of the program#
 Enter Height: 24
 Enter Bredth: 60
-Area of Sqare (or) Rectangle: = 1440.000
-Perimeter of Sqare (or) Rectangle: = 168.000
+Area of Square (or) Rectangle: = 1440.000
+Perimeter of Square (or) Rectangle: = 168.000
 # 6. Program to find Interest
 
 #include<stdio.h>
