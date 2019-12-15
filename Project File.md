@@ -416,13 +416,13 @@ _______________\n\
 
 ## Output of the program
 _______________
-|1|2|3| |
-|___|___|___| |
-|4|5|6|+|
+| 1 | 2 | 3 |   |
+|___|___|___|   |
+| 4 | 5 | 6 | + |
 |___|___|___|___|
-|7|8|9|-|
+| 7 | 8 | 9 | - |
 |___|___|___|___|
-| 0 |*|
+| 0 | * |
 |___________|___|
 # 18. Program to print a Face using puts function
 
@@ -448,10 +448,8 @@ puts("|_______|______|\n");
 | (0 0) |
 | \ | / |
 | \=/ |
-|
-\_/ |
-|
-|
+|\_/ |
+|    |
 |
 |_______|______|
 # 19. Program of Addition of 2x2 Matrix
@@ -493,7 +491,7 @@ k = c+g;
 l = d+h;
 printf("\n\nSum of Matrix(A+B) is: | %.2f
 
-%.2f |\n
+%.2f |",i,j,k,l); 
 
 i = a-e;
 j = b-f;
@@ -506,18 +504,10 @@ j = f-b;
 k = g-c;
 l = h-d;
 
-%.2f |\n
-
-| %.2f
-
-%.2f |",i,j,k,l);
-
-| %.2f
 
 printf("\n\nSubstraction of Matrix(B-A) is: | %.2f
 %.2f |",i,j,k,l);
 
-%.2f |\n
 
 return 0;
 }
@@ -543,19 +533,12 @@ Enter The Valve of f: 5
 Enter The Valve of g: 9
 Enter The Valve of h: 1
 
-Sum of Matrix(A+B) is: | 10.00
-| 13.00 1.00 |
+Sum of Matrix(A+B) is: | 10.00 13.00 1.00 10.00 |
 
-10.00 |
+Substraction of Matrix(A-B) is: | 4.00 -5.00 -1.00 0.00|
+Substraction of Matrix(B-A) is: | -4.00 5.00 1.00 0.00 |
 
-Substraction of Matrix(A-B) is: | 4.00
-| -5.00 -1.00 |
-Substraction of Matrix(B-A) is: | -4.00
-| 5.00 1.00 |
 
-0.00 |
-
-0.00 |
 
 # 20. Program of Multiplication of 2x2 Matrix
 
@@ -574,7 +557,7 @@ f=6 |\n
 d=4 |\n\n\
 h=8 |\n\n");
 
-| %.2f
+
 
 printf("Enter The Valve of a: ");
 scanf("%f",&a);
@@ -613,17 +596,6 @@ Enter The Valve of d: 0
 Enter The Valve of e: 3
 Enter The Valve of f: 5
 Enter The Valve of g: 9
-
-b=2 |
-
-f=6 |
-
-%.2f |\n
-
-| %.2f
-
-%.2f |",i,j,k,l);
-
 Enter The Valve of h: 1
 Multiplication of A,B is: | 66.00 40.00 |
 | 12.00 20.00 |
